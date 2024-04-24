@@ -58,6 +58,7 @@ Você pode acessar o [código do projeto]() ou a [simulação feita no Wooki](ht
 
 - ``LiquidCrystal_I2C``
 - ``DHT sensor library``
+- ``Wire``
   
 ## Componentes necessários :toolbox:
 
