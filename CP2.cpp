@@ -8,7 +8,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);
 //Definindo o pino do DHT
 #define DHTPIN 2   
 //Definindo o tipo do DHT  
-#define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
+#define DHTTYPE DHT11   // DHT 11  
 
 DHT dht(DHTPIN, DHTTYPE);
 
