@@ -115,7 +115,7 @@ Você pode acessar o [código do projeto]() ou a [simulação feita no Wooki](ht
 - ``4.`` Conectando o LCD:
   - ``4.1.`` **Atenção!** Estamos utilizando um LCD 16x2 com um módulo I2C!;
   - ``4.2.`` Conecte o VCC no terminal positivo (5V), GND no terminal negativo (GND), o SDA no pino do Arduino A4 e o SCL no A5;
-  - ``4.3.`` Teste para ver se o display está funcionando, se tiver problemas tem três possibilidades: o LCD está quebrado, com mal contato ou o contraste está baixo;
+  - ``4.3.`` Teste para ver se o display está funcionando, se tiver problemas com o display, pode ser algumas dessas possibilidades: o LCD está quebrado, com mal contato ou o contraste está baixo;
     - ``4.3.1.`` Para aumentar o contraste do display basta girar o trimpot de ajuste do contraste no sentido anti-horário. Por sua vez, para diminuir o contraste gire no sentido horário.
       <details>
         <summary>Imagem de onde fica o trimpot de ajuste do contraste</summary>
