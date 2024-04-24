@@ -96,7 +96,7 @@ Você pode acessar o [código do projeto](CP2.cpp) ou a [simulação feita no Wo
   - ``2.3.`` Relaxe, um dos terminais do LDR ficaram sem conectar, pois esse é onde sai os dados digitais;
 
 - ``3.`` Conectando o DHT:
-  - ``3.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto]() utilizamos o DHT11;
+  - ``3.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto](CP2.cpp) utilizamos o DHT11;
     - ``3.1.1.`` Esses sensores possuem a diferença de que o DHT22 é mais preciso do que o DHT11, no qual possui uma margem de erro maior;
     - ``3.1.2.`` Para mais informações sobre o DHT22, nós fizemos um [material explicando sobre o sensor](https://drive.google.com/file/d/1xqHKRi8RzEcJZDfiAaG9nQOlKiJlPApr/view?usp=sharing).
     - ``3.1.3.`` Se quiser utilizar um DHT22, a única coisa que precisará será trocar ,no código, o tipo do DHT para 22 nessa seguinte parte:
