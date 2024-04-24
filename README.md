@@ -95,11 +95,11 @@ Você pode acessar o [código do projeto]() ou a [simulação feita no Wooki](ht
   - ``3.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto]() utilizamos o DHT11;
     - ``3.1.1.`` Esses sensores possuem a diferença de que o DHT22 é mais preciso do que o DHT11 que possui uma margem de erro maior;
     - ``3.1.2.`` Para mais informações sobre o DHT22, nós fizemos um [material explicando sobre o sensor](https://drive.google.com/file/d/1xqHKRi8RzEcJZDfiAaG9nQOlKiJlPApr/view?usp=sharing).
-    - ``3.1.3.`` Se quiser utilizar um DHT22, a única coisa que precisará trocar no código é o tipo do DHT para 11 nessa seguinte parte:
+    - ``3.1.3.`` Se quiser utilizar um DHT22, a única coisa que precisará trocar no código é o tipo do DHT para 22 nessa seguinte parte:
             
       ```cpp
       //Definindo o tipo do DHT  
-      #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
+      #define DHTTYPE DHT11   
       ```
       
   - ``3.2.`` É necessário ter muito cuidado na hora de conectar os cabos, pois se conecta-los errados, o DHT será queimado. Segue a Imagem de quais são os terminais do DHT:
