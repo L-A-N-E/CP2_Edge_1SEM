@@ -1,4 +1,4 @@
-# CP2 - O Caso da Vinheria Agnello: Monitoramento de Ambiente :wine_glass:
+# CP2 - Monitoramento de Ambiente para Adegas :wine_glass:
 
 ## Índice :page_with_curl:
 
