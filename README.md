@@ -87,13 +87,13 @@ Você pode acessar o [código do projeto](CP2.cpp) ou a [simulação feita no Wo
 
 - ``1.`` Conectando os LED’s e o Buzzer:
    - ``1.1.`` Ambos possuem polaridade, então precisamos ter cuidado na hora de conectar-los aos cabos;
-   - ``1.2.`` O LED possui um terminal maior, que tem polaridade positiva, e o lado do terminal menor tem polaridade negativa. Portanto, conectamos a conexão do Arduino no terminal positivo ( nodo) e o GND no terminal negativo (Catodo);
+   - ``1.2.`` O LED possui um terminal maior, que tem polaridade positiva, e o lado do terminal menor tem polaridade negativa. Portanto, conectamos a conexão do Arduino no terminal positivo (Ânodo) e o GND no terminal negativo (Catodo);
    - ``1.3.`` O Buzzer possui uma indicação se o lado é positivo ou negativo;
 
 - ``2.`` Conectando o LDR:
   - ``2.1.`` Nesta segunda parte, mudamos o LDR para um Módulo LDR com 4 terminais no qual possui a opção da saída dos dados analógicos ou digitais. Com isso, nesse projeto, continuamos usando a entrada analógica. Então, verifique se o cabo que está conectado ao A0 do Arduino está  conectado ao A0 do LDR.
   - ``2.2.`` Conecte o VCC no terminal positivo (5V) e o GND no terminal negativo (GND);
-  - ``2.3.`` Relaxe, um dos terminais do LDR ficaram sem conectar, pois esse é onde sai os dados digitais;
+  - ``2.3.`` Relaxe, um dos terminais do LDR ficará sem conectar, pois esse é onde sai os dados digitais;
 
 - ``3.`` Conectando o DHT:
   - ``3.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto](CP2.cpp) utilizamos o DHT11;
@@ -125,7 +125,7 @@ Você pode acessar o [código do projeto](CP2.cpp) ou a [simulação feita no Wo
 ## Reprodução :gear:
 
 - ``1.`` Após a montagem do projeto, é necessário inserir o código por meio de um computador que possui o programa Arduino IDE instalado;
-- ``2.`` Baixe as bibliotecas necessárias no Arduino IDE; 
+- ``2.`` Baixe as [bibliotecas necessárias](#bibliotecas-utilizadas-books) no Arduino IDE; 
 - ``3.`` Transferir o código do computador para  o Arduino por meio do Cabo USB;
 - ``4.`` Testar para ver se está funcionando;
 - ``5.`` Com tudo montado e pronto, é necessário levá-lo para o ambiente em que será implementado e ligá-lo á uma fonte;
