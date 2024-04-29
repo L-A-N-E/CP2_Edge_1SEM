@@ -495,6 +495,7 @@ void Temperatura(){
   delay(4000);
   //Chama a função de desligar todos os LEDS
   LedsOff();
+  noTone(buzzerPin); //Buzzer para de tocar
 }
 // Função para calcular a média depois de 10 ciclos
 void Final_10_Ciclos(){
